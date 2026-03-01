@@ -17,10 +17,7 @@ class FirebaseService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final FirebaseStorage _storage = FirebaseStorage.instance;
 
-  // Initialize Firebase
-  static Future<void> initialize() async {
-    await Firebase.initializeApp();
-  }
+  // Firestore Methods (instances are retrieved lazily via fields)
 
   // Authentication Methods
   Future<UserCredential?> signUp(String email, String password) async {

@@ -104,5 +104,18 @@
     "updateSuccess": "تم التحديث بنجاح",
     "createSuccess": "تم الإنشاء بنجاح",
     "saveSuccess": "تم الحفظ بنجاح",
-    "logoutSuccess": "تم تسجيل الخروج بنجاح"
+    "logoutSuccess": "تم تسجيل الخروج بنجاح",
+    "homeScreen": "الرئيسية",
+    "welcomeToTheApp": "مرحبا بك في التطبيق",
+    "startChat": "بدء الدردشة",
+    "noActiveAds": "لا توجد إعلانات نشطة",
+    "noPaymentMethodsAvailable": "لا توجد طرق دفع متاحة",
+    "loginFailed": "فشل تسجيل الدخول",
+    "dontHaveAnAccountSignUp": "ليس لديك حساب؟ سجل الآن",
+    "reviewCompleted": "اكتملت المراجعة",
+    "modify": "تعديل",
+    "originalText": "النص الأصلي",
+    "newText": "النص الجديد",
+    "updateCompleted": "تم التحديث",
+    "reviewRejected": "تم رفض المراجعة"
 }

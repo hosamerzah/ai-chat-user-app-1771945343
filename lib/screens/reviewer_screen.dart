@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ai_chat_app/services/firebase_service.dart';
-import 'package:ai_chat_app/l10n/app_localizations.dart';
+import 'package:ai_chat_user_app/services/firebase_service.dart';
+import 'package:ai_chat_user_app/l10n/app_localizations.dart';
 
 class ReviewerScreen extends StatefulWidget {
   const ReviewerScreen({super.key});

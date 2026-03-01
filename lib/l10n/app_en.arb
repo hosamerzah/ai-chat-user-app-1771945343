@@ -104,5 +104,18 @@
     "updateSuccess": "Updated successfully",
     "createSuccess": "Created successfully",
     "saveSuccess": "Saved successfully",
-    "logoutSuccess": "Logged out successfully"
+    "logoutSuccess": "Logged out successfully",
+    "homeScreen": "Home Screen",
+    "welcomeToTheApp": "Welcome to the App",
+    "startChat": "Start Chat",
+    "noActiveAds": "No active ads",
+    "noPaymentMethodsAvailable": "No payment methods available",
+    "loginFailed": "Login Failed",
+    "dontHaveAnAccountSignUp": "Don't have an account? Sign Up",
+    "reviewCompleted": "Review Completed",
+    "modify": "Modify",
+    "originalText": "Original Text",
+    "newText": "New Text",
+    "updateCompleted": "Update Completed",
+    "reviewRejected": "Review Rejected"
 }

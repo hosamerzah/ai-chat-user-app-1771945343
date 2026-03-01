@@ -1,0 +1,108 @@
+﻿Analyzing ai-chat-user-app-1771945343...
+
+  error - lib\main.dart:4:8 - Target of URI doesn't exist: 'package:ai_chat_app/l10n/app_localizations.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:5:8 - Target of URI doesn't exist: 'package:ai_chat_app/themes/light_theme.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:6:8 - Target of URI doesn't exist: 'package:ai_chat_app/themes/dark_theme.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:7:8 - Target of URI doesn't exist: 'package:ai_chat_app/screens/login_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:8:8 - Target of URI doesn't exist: 'package:ai_chat_app/screens/home_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:9:8 - Target of URI doesn't exist: 'package:ai_chat_app/screens/admin_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:10:8 - Target of URI doesn't exist: 'package:ai_chat_app/screens/reviewer_screen.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:11:8 - Target of URI doesn't exist: 'package:ai_chat_app/services/firebase_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:13:8 - Target of URI doesn't exist: 'package:ai_chat_app/providers/theme_provider.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:14:8 - Target of URI doesn't exist: 'package:ai_chat_app/providers/locale_provider.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\main.dart:31:32 - The name 'ThemeProvider' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'ThemeProvider'. - non_type_as_type_argument
+  error - lib\main.dart:31:62 - The method 'ThemeProvider' isn't defined for the type 'MyApp'. Try correcting the name to the name of an existing method, or defining a method named 'ThemeProvider'. - undefined_method
+  error - lib\main.dart:32:32 - The name 'LocaleProvider' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'LocaleProvider'. - non_type_as_type_argument
+  error - lib\main.dart:32:63 - The method 'LocaleProvider' isn't defined for the type 'MyApp'. Try correcting the name to the name of an existing method, or defining a method named 'LocaleProvider'. - undefined_method
+  error - lib\main.dart:34:24 - The name 'ThemeProvider' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'ThemeProvider'. - non_type_as_type_argument
+  error - lib\main.dart:34:39 - The name 'LocaleProvider' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'LocaleProvider'. - non_type_as_type_argument
+  error - lib\main.dart:39:15 - The values in a const list literal must be constants. Try removing the keyword 'const' from the list literal. - non_constant_list_element
+  error - lib\main.dart:39:15 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\main.dart:48:36 - The property 'locale' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!'). - unchecked_use_of_nullable_value
+  error - lib\main.dart:57:20 - Undefined name 'lightTheme'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\main.dart:58:24 - Undefined name 'darkTheme'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\main.dart:59:38 - The property 'themeMode' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!'). - unchecked_use_of_nullable_value
+  error - lib\main.dart:61:23 - The method 'FirebaseService' isn't defined for the type 'MyApp'. Try correcting the name to the name of an existing method, or defining a method named 'FirebaseService'. - undefined_method
+  error - lib\main.dart:66:34 - The name 'LoginScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\main.dart:69:37 - The getter 'uid' isn't defined for the type 'Object'. Try importing the library that defines 'uid', correcting the name to the name of an existing getter, or defining a getter or field named 'uid'. - undefined_getter
+  error - lib\main.dart:71:34 - The name 'HomeScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\main.dart:75:29 - The method 'FirebaseService' isn't defined for the type 'MyApp'. Try correcting the name to the name of an existing method, or defining a method named 'FirebaseService'. - undefined_method
+  error - lib\main.dart:86:38 - The name 'AdminScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\main.dart:89:38 - The name 'ReviewerScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\main.dart:91:38 - The name 'HomeScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\main.dart:102:44 - The name 'LoginScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\main.dart:103:43 - The name 'HomeScreen' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+  error - lib\screens\chat_screen.dart:3:8 - Target of URI doesn't exist: 'package:ai_chat_app/services/firebase_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\screens\chat_screen.dart:4:8 - Target of URI doesn't exist: 'package:ai_chat_app/l10n/app_localizations.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\screens\chat_screen.dart:22:9 - Undefined class 'FirebaseService'. Try changing the name to the name of an existing class, or creating a class with the name 'FirebaseService'. - undefined_class
+  error - lib\screens\chat_screen.dart:22:44 - The method 'FirebaseService' isn't defined for the type '_ChatScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'FirebaseService'. - undefined_method
+  error - lib\screens\chat_screen.dart:107:27 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\home_screen.dart:2:8 - Target of URI doesn't exist: 'package:provider/provider'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\screens\home_screen.dart:22:27 - Undefined name 'Provider'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\home_screen.dart:23:28 - Undefined name 'Provider'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\home_screen.dart:27:36 - The getter 'homeScreen' isn't defined for the type 'AppLocalizations'. Try importing the library that defines 'homeScreen', correcting the name to the name of an existing getter, or defining a getter or field named 'homeScreen'. - undefined_getter
+  error - lib\screens\home_screen.dart:61:30 - The getter 'welcomeToTheApp' isn't defined for the type 'AppLocalizations'. Try importing the library that defines 'welcomeToTheApp', correcting the name to the name of an existing getter, or defining a getter or field named 'welcomeToTheApp'. - undefined_getter
+  error - lib\screens\home_screen.dart:69:42 - The getter 'startChat' isn't defined for the type 'AppLocalizations'. Try importing the library that defines 'startChat', correcting the name to the name of an existing getter, or defining a getter or field named 'startChat'. - undefined_getter
+  error - lib\screens\home_screen.dart:80:46 - The getter 'noActiveAds' isn't defined for the type 'AppLocalizations'. Try importing the library that defines 'noActiveAds', correcting the name to the name of an existing getter, or defining a getter or field named 'noActiveAds'. - undefined_getter
+  error - lib\screens\home_screen.dart:103:46 - The getter 'noPaymentMethodsAvailable' isn't defined for the type 'AppLocalizations'. Try importing the library that defines 'noPaymentMethodsAvailable', correcting the name to the name of an existing getter, or defining a getter or field named 'noPaymentMethodsAvailable'. - undefined_getter
+  error - lib\screens\login_screen.dart:37:64 - The getter 'loginFailed' isn't defined for the type 'AppLocalizations'. Try importing the library that defines 'loginFailed', correcting the name to the name of an existing getter, or defining a getter or field named 'loginFailed'. - undefined_getter
+  error - lib\screens\login_screen.dart:92:44 - The getter 'dontHaveAnAccountSignUp' isn't defined for the type 'AppLocalizations'. Try importing the library that defines 'dontHaveAnAccountSignUp', correcting the name to the name of an existing getter, or defining a getter or field named 'dontHaveAnAccountSignUp'. - undefined_getter
+  error - lib\screens\reviewer_screen.dart:3:8 - Target of URI doesn't exist: 'package:ai_chat_app/services/firebase_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\screens\reviewer_screen.dart:4:8 - Target of URI doesn't exist: 'package:ai_chat_app/l10n/app_localizations.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\screens\reviewer_screen.dart:14:9 - Undefined class 'FirebaseService'. Try changing the name to the name of an existing class, or creating a class with the name 'FirebaseService'. - undefined_class
+  error - lib\screens\reviewer_screen.dart:14:44 - The method 'FirebaseService' isn't defined for the type '_ReviewerScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'FirebaseService'. - undefined_method
+  error - lib\screens\reviewer_screen.dart:27:27 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\reviewer_screen.dart:123:27 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\reviewer_screen.dart:185:27 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\reviewer_screen.dart:303:27 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\signup_screen.dart:2:8 - Target of URI doesn't exist: 'package:ai_chat_app/services/firebase_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\screens\signup_screen.dart:3:8 - Target of URI doesn't exist: 'package:ai_chat_app/l10n/app_localizations.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\screens\signup_screen.dart:28:27 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\screens\signup_screen.dart:57:29 - The method 'FirebaseService' isn't defined for the type '_SignUpScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'FirebaseService'. - undefined_method
+  error - lib\screens\signup_screen.dart:88:27 - Undefined name 'AppLocalizations'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+warning - lib\screens\chat_screen.dart:108:11 - The value of the local variable 'isArabic' isn't used. Try removing the variable or using it. - unused_local_variable
+   info - lib\main.dart:4:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:5:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:6:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:7:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:8:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:9:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:10:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:11:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:13:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\main.dart:14:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\screens\chat_screen.dart:3:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\screens\chat_screen.dart:4:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\screens\home_screen.dart:50:30 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - lib\screens\reviewer_screen.dart:3:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\screens\reviewer_screen.dart:4:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\screens\reviewer_screen.dart:73:35 - Use interpolation to compose strings and values. Try using string interpolation to build the composite string. - prefer_interpolation_to_compose_strings
+   info - lib\screens\reviewer_screen.dart:207:7 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - lib\screens\reviewer_screen.dart:279:42 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - lib\screens\reviewer_screen.dart:285:42 - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext. - use_build_context_synchronously
+   info - lib\screens\signup_screen.dart:2:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\screens\signup_screen.dart:3:8 - The imported package 'ai_chat_app' isn't a dependency of the importing package. Try adding a dependency for 'ai_chat_app' in the 'pubspec.yaml' file. - depend_on_referenced_packages
+   info - lib\services\firebase_service.dart:33:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:45:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:54:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:69:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:78:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:87:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:96:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:108:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:126:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:151:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:171:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:206:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:215:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:231:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:243:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:251:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:294:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:334:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:357:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:389:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:399:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\firebase_service.dart:415:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+
+104 issues found.

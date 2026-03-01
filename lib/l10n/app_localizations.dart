@@ -727,6 +727,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Logged out successfully'**
   String get logoutSuccess;
+
+  /// No description provided for @homeScreen.
+  ///
+  /// In en, this message translates to:
+  /// **'Home Screen'**
+  String get homeScreen;
+
+  /// No description provided for @welcomeToTheApp.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to the App'**
+  String get welcomeToTheApp;
+
+  /// No description provided for @startChat.
+  ///
+  /// In en, this message translates to:
+  /// **'Start Chat'**
+  String get startChat;
+
+  /// No description provided for @noActiveAds.
+  ///
+  /// In en, this message translates to:
+  /// **'No active ads'**
+  String get noActiveAds;
+
+  /// No description provided for @noPaymentMethodsAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'No payment methods available'**
+  String get noPaymentMethodsAvailable;
+
+  /// No description provided for @loginFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Login Failed'**
+  String get loginFailed;
+
+  /// No description provided for @dontHaveAnAccountSignUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account? Sign Up'**
+  String get dontHaveAnAccountSignUp;
+
+  /// No description provided for @reviewCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Review Completed'**
+  String get reviewCompleted;
+
+  /// No description provided for @modify.
+  ///
+  /// In en, this message translates to:
+  /// **'Modify'**
+  String get modify;
+
+  /// No description provided for @originalText.
+  ///
+  /// In en, this message translates to:
+  /// **'Original Text'**
+  String get originalText;
+
+  /// No description provided for @newText.
+  ///
+  /// In en, this message translates to:
+  /// **'New Text'**
+  String get newText;
+
+  /// No description provided for @updateCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Update Completed'**
+  String get updateCompleted;
+
+  /// No description provided for @reviewRejected.
+  ///
+  /// In en, this message translates to:
+  /// **'Review Rejected'**
+  String get reviewRejected;
 }
 
 class _AppLocalizationsDelegate

@@ -323,4 +323,43 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get logoutSuccess => 'Logged out successfully';
+
+  @override
+  String get homeScreen => 'Home Screen';
+
+  @override
+  String get welcomeToTheApp => 'Welcome to the App';
+
+  @override
+  String get startChat => 'Start Chat';
+
+  @override
+  String get noActiveAds => 'No active ads';
+
+  @override
+  String get noPaymentMethodsAvailable => 'No payment methods available';
+
+  @override
+  String get loginFailed => 'Login Failed';
+
+  @override
+  String get dontHaveAnAccountSignUp => 'Don\'t have an account? Sign Up';
+
+  @override
+  String get reviewCompleted => 'Review Completed';
+
+  @override
+  String get modify => 'Modify';
+
+  @override
+  String get originalText => 'Original Text';
+
+  @override
+  String get newText => 'New Text';
+
+  @override
+  String get updateCompleted => 'Update Completed';
+
+  @override
+  String get reviewRejected => 'Review Rejected';
 }

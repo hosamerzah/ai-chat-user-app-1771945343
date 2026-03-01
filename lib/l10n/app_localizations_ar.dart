@@ -322,4 +322,43 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get logoutSuccess => 'تم تسجيل الخروج بنجاح';
+
+  @override
+  String get homeScreen => 'الرئيسية';
+
+  @override
+  String get welcomeToTheApp => 'مرحبا بك في التطبيق';
+
+  @override
+  String get startChat => 'بدء الدردشة';
+
+  @override
+  String get noActiveAds => 'لا توجد إعلانات نشطة';
+
+  @override
+  String get noPaymentMethodsAvailable => 'لا توجد طرق دفع متاحة';
+
+  @override
+  String get loginFailed => 'فشل تسجيل الدخول';
+
+  @override
+  String get dontHaveAnAccountSignUp => 'ليس لديك حساب؟ سجل الآن';
+
+  @override
+  String get reviewCompleted => 'اكتملت المراجعة';
+
+  @override
+  String get modify => 'تعديل';
+
+  @override
+  String get originalText => 'النص الأصلي';
+
+  @override
+  String get newText => 'النص الجديد';
+
+  @override
+  String get updateCompleted => 'تم التحديث';
+
+  @override
+  String get reviewRejected => 'تم رفض المراجعة';
 }

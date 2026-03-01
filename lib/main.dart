@@ -1,21 +1,26 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:ai_chat_app/l10n/app_localizations.dart';
-import 'package:ai_chat_app/themes/light_theme.dart';
-import 'package:ai_chat_app/themes/dark_theme.dart';
-import 'package:ai_chat_app/screens/login_screen.dart';
-import 'package:ai_chat_app/screens/home_screen.dart';
-import 'package:ai_chat_app/screens/admin_screen.dart';
-import 'package:ai_chat_app/screens/reviewer_screen.dart';
-import 'package:ai_chat_app/services/firebase_service.dart';
+import 'package:ai_chat_user_app/l10n/app_localizations.dart';
+import 'package:ai_chat_user_app/themes/light_theme.dart';
+import 'package:ai_chat_user_app/themes/dark_theme.dart';
+import 'package:ai_chat_user_app/screens/login_screen.dart';
+import 'package:ai_chat_user_app/screens/upgrade_plan_screen.dart';
+import 'package:ai_chat_user_app/screens/home_screen.dart';
+import 'package:ai_chat_user_app/screens/signup_screen.dart';
+import 'package:ai_chat_user_app/screens/admin_screen.dart';
+import 'package:ai_chat_user_app/screens/reviewer_screen.dart';
+import 'package:ai_chat_user_app/services/firebase_service.dart';
 import 'package:provider/provider.dart';
-import 'package:ai_chat_app/providers/theme_provider.dart';
-import 'package:ai_chat_app/providers/locale_provider.dart';
+import 'package:ai_chat_user_app/providers/theme_provider.dart';
+import 'package:ai_chat_user_app/providers/locale_provider.dart';
+import 'package:ai_chat_user_app/firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   // Initialize FirebaseService if needed.
   // Ensure any other asynchronous initialization happens before running the app.
   runApp(const MyApp());
@@ -54,9 +59,7 @@ class MyApp extends StatelessWidget {
               }
               return supportedLocales.first;
             },
-            theme: lightTheme,
-            darkTheme: darkTheme,
-            themeMode: themeProvider.themeMode,
+            theme: themeProvider.currentTheme,
             home: StreamBuilder(
               stream: FirebaseService().authStateChanges,
               builder: (context, snapshot) {
@@ -100,7 +103,9 @@ class MyApp extends StatelessWidget {
             ),
             routes: {
               '/login': (context) => const LoginScreen(),
+              '/signup': (context) => const SignUpScreen(),
               '/home': (context) => const HomeScreen(),
+              '/upgrade': (context) => const UpgradePlanScreen(),
             },
           );
         },
@@ -108,3 +113,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
